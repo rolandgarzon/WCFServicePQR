@@ -10,7 +10,7 @@ using System.Data.Common;
 /// Summary description for SiewebDBCommand
 /// </summary>
 /// 
-namespace WCFServiceRecaudo
+namespace WCFServicePQR
 {
     public class SiewebDBCommand : IDisposable
     {

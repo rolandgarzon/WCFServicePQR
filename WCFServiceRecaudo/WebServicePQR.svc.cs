@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.OracleClient;
 
-namespace WCFServiceRecaudo
+namespace WCFServicePQR
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in code, svc and config file together.
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
-    public class wsRecaudo : IWSRecaudo
+    public class wsRecaudo : IWSPQR
     {
         /// <summary>
         /// metodo que conulta los datos de un cupon de pago
@@ -268,6 +268,11 @@ namespace WCFServiceRecaudo
                                                 nuIdEstadoCuponPago,
                                                 nuIdCuentaCobro
                                                 );
+        }
+
+        public List<DatosFactura> obtenerDatosFactura(long nuIdsuscriptor)
+        {
+            throw new NotImplementedException();
         }
     }
 }

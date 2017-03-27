@@ -90,7 +90,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="WebServiceRecaudo.svc" />
+    <Content Include="WebServicePQR.svc" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -100,12 +100,13 @@
     <Compile Include="CreaCuponPago.cs" />
     <Compile Include="DataBaseConnect.cs" />
     <Compile Include="DatosCuponPago.cs" />
+    <Compile Include="DatosFactura.cs" />
     <Compile Include="DatosSuscriptor.cs" />
     <Compile Include="SiewebDBCommand.cs" />
-    <Compile Include="WebServiceRecaudo.svc.cs">
-      <DependentUpon>WebServiceRecaudo.svc</DependentUpon>
+    <Compile Include="WebServicePQR.svc.cs">
+      <DependentUpon>WebServicePQR.svc</DependentUpon>
     </Compile>
-    <Compile Include="IWSRecaudo.cs" />
+    <Compile Include="IWSPQR.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

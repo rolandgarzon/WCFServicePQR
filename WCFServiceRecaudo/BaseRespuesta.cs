@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace WCFServiceRecaudo
+namespace WCFServicePQR
 {
     [DataContract]
     public class BaseRespuesta

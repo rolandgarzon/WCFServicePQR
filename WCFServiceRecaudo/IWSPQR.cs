@@ -6,15 +6,18 @@ using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
 
-namespace WCFServiceRecaudo
+namespace WCFServicePQR
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
     [ServiceContract]
-    public interface IWSRecaudo
+    public interface IWSPQR
     {
 
         [OperationContract]
         List<DatosSuscriptor> obtenerDatosSuscriptor(long nuIdsuscriptor);
+
+        [OperationContract]
+        List<DatosFactura> obtenerDatosFactura(long nuIdsuscriptor);
 
         [OperationContract]
         List<DatosCuponPago> obtenerDatosCuponPago(long nuIdcuponpago);

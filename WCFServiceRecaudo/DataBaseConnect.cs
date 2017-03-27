@@ -1,4 +1,4 @@
-﻿namespace WCFServiceRecaudo
+﻿namespace WCFServicePQR
 {
     using System;
     using System.Collections.Generic;

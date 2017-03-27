@@ -6,7 +6,7 @@ using System.Net;
 using System.Data;
 using System.Data.OracleClient;
 
-namespace WCFServiceRecaudo
+namespace WCFServicePQR
 {
     public class CreaCuponPago
     {
